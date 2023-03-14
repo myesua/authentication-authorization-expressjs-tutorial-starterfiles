@@ -1,0 +1,43 @@
+{
+  "name": "authentication-authorization-expressjs-tutorial-starterfiles",
+  "version": "1.0.0",
+  "description": "starterfiles",
+  "main": "server.js",
+  "scripts": {
+    "start": "node v1/server.js",
+    "dev": "nodemon v1/server.js",
+    "format": "prettier --write .",
+    "env": "cp .env.example .env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjosh51/authentication-authorization-expressjs-tutorial-starterfiles.git"
+  },
+  "keywords": [
+    "expressjs",
+    "login",
+    "logout",
+    "nodejs",
+    "javascript."
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjosh51/authentication-authorization-expressjs-tutorial-starterfiles/issues"
+  },
+  "homepage": "https://github.com/mjosh51/authentication-authorization-expressjs-tutorial-starterfiles#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "type": "module"
+}
